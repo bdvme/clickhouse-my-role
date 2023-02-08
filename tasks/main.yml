@@ -1,7 +1,5 @@
 ---
 # tasks file for clickhouse-my-role
-- name: Install Clickhouse
-  tasks:
     - block:
         - name: Get clickhouse distrib
           get_url:
